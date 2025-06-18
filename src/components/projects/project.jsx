@@ -11,7 +11,7 @@ const Project = (props) => {
 	return (
 		<React.Fragment>
 			<div className="project">
-				<Link to={link}>
+				{/* <Link to={link}> */}
 					<div className="project-container">
 						<div className="project-logo">
 							<img src={logo} alt="logo" />
@@ -19,14 +19,14 @@ const Project = (props) => {
 						<div className="project-title">{title}</div>
 						<div className="project-description">{description}</div>
 						<div className="project-link">
-							<div className="project-link-icon">
+							{/* <div className="project-link-icon">
 								<FontAwesomeIcon icon={faLink} />
-							</div>
+							</div> */}
 
-							<div className="project-link-text">{linkText}</div>
+							{/* <div className="project-link-text">{linkText}</div> */}
 						</div>
 					</div>
-				</Link>
+				{/* </Link> */}
 			</div>
 		</React.Fragment>
 	);
